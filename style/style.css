@@ -210,4 +210,18 @@ body {
   text-align: center;
   opacity: 0.85;
 }
+
+.fake-shadow {
+  position: relative;
+}
+
+.fake-shadow::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(254, 254, 254, 0.1);
+}
 /*# sourceMappingURL=style.css.map */
