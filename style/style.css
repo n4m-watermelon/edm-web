@@ -1,0 +1,213 @@
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../fonts/Montserrat-Light.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Montserrat-Regular;
+}
+
+.Montserrat-Light {
+  font-family: Montserrat-Light;
+}
+
+.Montserrat-ExtraBold {
+  font-family: Montserrat-ExtraBold;
+}
+
+.Montserrat-SemiBold {
+  font-family: Montserrat-SemiBold;
+}
+
+.Montserrat-Regular {
+  font-family: Montserrat-Regular;
+}
+
+:root {
+  --primaryColor: #01a982;
+}
+
+.top-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Montserrat-Regular;
+  font-size: 1.2em;
+  row-gap: 25px;
+  text-align: justify;
+  padding: 32px 0;
+}
+
+.reasons-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.reasons-wrapper .reason {
+  background: #080202;
+  color: #ffffff;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 75px 1fr;
+      grid-template-rows: 75px 1fr;
+}
+
+.reasons-wrapper .reason .reason-title {
+  font-size: 1em;
+  font-family: Montserrat-SemiBold;
+}
+
+.reasons-wrapper .reason div {
+  font-size: 1em;
+}
+
+.reason-1 {
+  border: 2.5px solid #9c39f3;
+}
+
+.reason-2 {
+  border: 2.5px solid #0a8ae8;
+}
+
+.reason-3 {
+  border: 2.5px solid #01a982;
+}
+
+.reason-4 {
+  border: 2.5px solid #ed8934;
+}
+
+.slogans {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 34px;
+          column-gap: 34px;
+  row-gap: 30px;
+  padding: 0 80px;
+}
+
+.slogans .slogan {
+  padding: 10px 5px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 70px;
+      grid-template-rows: 1fr 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  row-gap: 15px;
+}
+
+.slogans .slogan span {
+  font-family: Montserrat-ExtraBold;
+  font-size: 1.3em;
+}
+
+.slogan-1 {
+  border: 3.5px solid #0a8ae8;
+}
+
+.slogan-2 {
+  border: 3.5px solid #ed8934;
+}
+
+.slogan-3 {
+  border: 3.5px solid #01a982;
+}
+
+.slogan-4 {
+  border: 3.5px solid #9c39f3;
+}
+
+.slogan-footer {
+  padding: 0 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 335px 1fr;
+      grid-template-columns: 335px 1fr;
+}
+
+.slogan-footer .slogan-footer-left {
+  font-family: Montserrat-ExtraBold;
+  font-size: 1.6rem;
+}
+
+.slogan-footer .slogan-footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 25px;
+  font-size: 1.2em;
+}
+
+.slogan-footer .slogan-footer-right a {
+  background: #01a982;
+  color: #fff;
+  font-family: Montserrat-SemiBold;
+  font-size: 1em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px 50px;
+}
+
+.footer-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 12px;
+          column-gap: 12px;
+}
+
+.footer-icons .footer-icon {
+  background: #01a983;
+  padding: 7px 10px;
+  min-width: 35px;
+  text-align: center;
+  opacity: 0.85;
+}
+/*# sourceMappingURL=style.css.map */
