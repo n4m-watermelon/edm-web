@@ -220,8 +220,11 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 100%;
-  background: #9dacf01a;
+  height: 140%;
+  width: 140%;
+  -webkit-transform: translate(-15px, -5px);
+          transform: translate(-15px, -5px);
+  background: #00000029;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
